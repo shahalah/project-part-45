@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/*
+input:focus{
+    background-color: #c3ffb3;
+}
+
+input[type='checkbox']:checked{
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 0 0 3px Red;
+}
+input[type='radio']:checked{
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 0 0 2px Red;
+}
+input[type='checkbox']:checked +span{
+    height: 20px;
+    width: 20px;
+    color: green;
+}
+input[type='radio']:checked +span{
+    height: 20px;
+    width: 20px;
+    color: green;
+}
+input[type='text']:disabled{
+    border: 2px solid yellow;
+}
+input:enabled{
+    border: 2px solid green;
+}
+input:required{
+    border: 2px solid red;
+}
+input:optional{
+    border: 2px solid purple;
+}
+input:out-of-range{
+    border: 3px solid red;
+}
+input:in-range{
+    border: 2px solid green;
+}
+input:read-only{
+    border: 2px solid red;
+}
+input:read-write{
+    border: 2px solid salmon;
+}
+.name:valid{
+    background-color: #cbffa6;
+}
+.name:invalid{
+    background-color: #ffe4e2;
+}
+*/
+body{
+    background-color: #ededed;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+}
+.main{
+    box-shadow: 2px 2px 4px #b0bba6, -2px -2px 4px #b0bba6;
+    margin:0 auto;
+    height: 580px;
+    width:360px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #aea4a4fa;
+}
+.singup{
+    margin: 0 auto;
+    width: 294.7px;
+}
+h2{
+    text-align: center;
+    padding-top:20px;
+    text-shadow: 2px 2px 6px #f9c0a1, -2px -2px 8px #fe1100;
+}
+.name{
+    width:100%;
+    border-radius: 3px;
+}
+input[type="submit"]{
+    width: 40%;
+    margin-left:80px;
+    height: 27px;
+    background-color: #ff3c00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px #6b6b6b, -1px -1px 4px #505050;
+}
+input[type='radio']:checked +span{
+    color: green;
+}
+input[type='checkbox']:checked +span{
+    color: green;
+]

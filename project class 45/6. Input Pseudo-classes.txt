@@ -1,0 +1,59 @@
+6. Input Pseudo-classes
+
+:focus ( input [type='text']:focus{border: 2px solid red;} )
+
+:checked ( input [type='radio']:checked + span`{box-shadow: 0 0 0 2px red;} )
+:disabled
+:enabled
+:required
+:optional
+:read-only
+:placeholder-shown
+:out-of-range
+
+
+5.2 Input Pseudo-classes
+Input pseudo class selects the input element based on the bool attribute or state of the input element.
+
+:disabled
+
+:disabled pseudo class selects the input element that is disabled by the disabled attribute.
+
+input:disabled{ background-color:gray;	}
+</>
+:enabled
+
+:enabled selects the input elements that are enabled and input elements are enabled by default.
+
+input:enabled{ border-radius:2px; }
+</>
+:checked
+
+:checked selects the input elements that are already checked or checked by the user.
+
+input:checked{ height:20px; }
+</>
+:read-only
+
+:read-only pseudo class selects the input elements that have readonly attribute.
+
+input:read-only{ background-color:gray; }
+</>
+:placeholder-shown
+
+:placeholder-shown pseudo class selects the elements that have placeholder attribute
+
+input:placeholder-shown{ font-size:20px; }
+</>
+:out-of-range
+
+:out-of-range pseudo class selects the input element where the value is out of range.
+
+input:out-of-range{ color:red;	}
+</>
+:required
+
+:required pseudo class selects the input element that requires information necessarily.
+
+input:required{ box-shadow:3px 3px 5x rgba(200,200,200,0.5); }
+</>
